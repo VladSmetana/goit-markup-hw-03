@@ -10,18 +10,19 @@
     <title>WebStudio</title>
 </head>
 <body>
-<header>
+<header class="header">
     <div class="container">
-    <nav>
+        <div class="head-container">
+    <nav class="navigation">
        <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
-        <ul>
+        <ul class="menu">
             <li class="information-list"><a href="./index.html" class="information">Studio</a></li>
             <li class="information-list"><a href="#portfolio" class="information">Portfolio</a></li>
             <li class="information-list"><a href="" class="information">Contacts</a></li>
         </ul>
     </nav>
     <address class="address">
-        <ul>
+        <ul class="contacts-block">
             <li class="contacts-list">
                 <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
             </li>
@@ -30,6 +31,7 @@
             </li>
         </ul>
     </address>
+        </div>
     </div>
 </header>
     <main>
@@ -42,7 +44,8 @@
         <section class="features">
             <div class="container">
             <h2 class="hidden-title">Content</h2>
-            <ul>
+                <div>
+            <ul class="feature-block">
                 <li class="feature-list">
                     <h3 class="feature-headers">Strategy</h3>
                     <p class="paragraph">
@@ -68,39 +71,51 @@
                     </p>
                 </li>
             </ul>
+                </div>
              </div>
         </section>
         <section class="team">
             <div class="container">
             <h2 class="section-heading">Our Team</h2>
-            <ul>
+                <div class="team-container">
+            <ul class="team-container">
                 <li class="stuff-list">
                     <img src="./images/Mark-Guerrero.jpg" alt="Mark Guerrero" width="264">
+                    <div class="stuff-container">
                     <h3 class="stuff-headers">Mark Guerrero</h3>
                     <p class="paragraph">Product Designer</p>
+                    </div>
                 </li>
                 <li class="stuff-list">
                     <img src="./images/Tom-Ford.jpg" alt="Tom Ford" width="264">
+                    <div class="stuff-container">
                     <h3 class="stuff-headers">Tom Ford</h3>
                     <p class="paragraph">Frontend Developer</p>
+                    </div>
                 </li>
                 <li class="stuff-list">
                     <img src="./images/Camila-Garcia.jpg" alt="Camila Garcia" width="264">
+                    <div class="stuff-container">
                     <h3 class="stuff-headers">Camila Garcia</h3>
                     <p class="paragraph">Marketing</p>
+                    </div>
                 </li>
                 <li class="stuff-list">
                     <img src="./images/Daniel-Wilson.jpg" alt="Daniel Wilson" width="264">
+                    <div class="stuff-container">
                     <h3 class="stuff-headers">Daniel Wilson</h3>
                     <p class="paragraph">UI Designer</p>
+                    </div>
                 </li>
             </ul>
+                </div>
             </div>
         </section>
         <section class="portfolio">
             <div class="container">
             <h2 id="portfolio" class="section-heading">Our Portfolio</h2>
-            <ul>
+                <div class="portfolio-container">
+            <ul class="portfolio-list-container">
                 <li class="portfolio-list">
                     <img src="./images/banking.jpg" alt="Banking app" width="360" />
                     <h3 class="portfolio-headers">Banking App</h3>
@@ -132,6 +147,7 @@
                     <p class="paragraph">Marketing</p>
                 </li>
             </ul>
+                </div>
             </div>
         </section>
     </main>
