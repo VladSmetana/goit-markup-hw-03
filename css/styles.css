@@ -31,11 +31,11 @@ img{
     text-transform: uppercase;
     color:#4d5ae5;
     font-size: 18px;
-    display: inline-flex;
     height: 24px;
     align-items: center;
     flex-shrink: 0;
     margin-right: 76px;
+    display: inline-block;
 }
 .logo-header{
     color: #2E2F42;
@@ -145,11 +145,14 @@ img{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.features{
+    padding: 120px 0;
+}
+
 .feature-block{
     display:flex;
     flex-direction: row;
     gap:24px;
-    padding: 120px 0;
 }
 .feature-list{
     list-style-type: none;
