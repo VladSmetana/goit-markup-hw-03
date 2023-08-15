@@ -18,7 +18,7 @@ img{
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
-.container.head-container{
+.head-container{
     display:flex;
     padding: 24px 0;
 }
