@@ -246,10 +246,12 @@ img{
     width: 264px;
     margin-top: 16px;
 }
+.logo .logo-footer{
+    margin-bottom: 16px;
+}
 .logo-footer{
     color: #F4F4FD;
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    margin-bottom: 16px;
 }
